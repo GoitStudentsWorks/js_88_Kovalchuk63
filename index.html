@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAB/UlEQVR4nO1Uv0scURDeYCEhNmkkIYgISSEmNrmd2QMlheSH2OqfkDT5B9ILQQIpAuK5b1YFG+GqmJ1Z7wrRP8HGyjThkpDmmphoSCAXZvftcrB75u5QsHBg4MF87/vmzZsZx7myXs1swxgJ+sTYIIY/JPCZBAOqeXdTTCXEe4ZxLY4phrFhBFf17tnkofuUGI5JsJVzxt9G8DkxvtBzEcYIfA8ieNI585ScMfSjkrtZn7wRhKX78YuUgPGveoIB44v3QDGKNYKciXB5NCeQkih5YQICL1MBPRdjEhFirOQFtOaCrUDcUqcSEuMr9Y7x0ANbrk8Fl+GXBvXJTp+2vPdoKCklnBYJfIyDO+5EvwJB8l8qcJQLGoZ1+5Gv+xUggSVboiAvEIFnu+O4Enp3eiVfr5VGDOOPuMtCDwpBRrBqu2C3Wl0Y6JZcsUZgL8ketjoCV+rlYWL8mvQzrnZD3mo513Qm7Ax822D31pkXTAjTJHBis1n8n4D+mcWe+BFOdZOUDt3jtG1JYEmzLMxc8E26RgKGOacXCxgWsp3DYNr/RM9pWeIdFcF8T+SZSOTOtC2/92+r3vV30bPBrBkEf/qCs32RZyIf3LJhaNqX7MeeDFNTY855GDGO635pW8tfKMJJ5zzN33l42wgeGMZDHSrnImyFp26qXwj5pbV/uORzn4/DCykAAAAASUVORK5CYII=" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taste Treats</title>
+  
+
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+  <script type="module" crossorigin src="/js_88_Kovalchuk63/assets/index-72ebea9a.js"></script>
+  <link rel="modulepreload" crossorigin href="/js_88_Kovalchuk63/assets/common-f49ba92b.js">
+  <link rel="stylesheet" href="/js_88_Kovalchuk63/assets/common-6ab481ff.css">
+  <link rel="stylesheet" href="/js_88_Kovalchuk63/assets/index-78e1d472.css">
+</head>
+
+<body>
+  <header>
+    <section class="header container">
+  <div class="header-container" id="header">
+    <!-- Navigation -->
+    <nav class="nav-header">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="./index.html" class="nav-link current link">Home</a>
+        </li>
+        <li class="nav-item current">
+          <a href="./favorite.html" class="nav-link">Favorites</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Logo -->
+    <a href="./index.html" class="logo-header link"
+      >tasty<span class="logo-color">treats.</span>
+    </a>
+    <div class="header-btn-box">
+      <a
+        href="tel:+380730000000"
+        class="shopping-link link"
+        rel="noopener noreferrer"
+        aria-label="shopping-card"
+      >
+        <svg class="shopping-icon" width="24" height="24">
+          <use href="/js_88_Kovalchuk63/assets/sprite-5a36ecde.svg#icon-bag"></use>
+        </svg>
+      </a>
+      <!-- Burger mobile -->
+      <button
+        class="burger-menu js-open-menu"
+        type="button"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <svg class="burger-menu-icon" width="32" height="32">
+          <use href="/js_88_Kovalchuk63/assets/sprite-5a36ecde.svg#icon-burger"></use>
+        </svg>
+      </button>
+      <!-- Toggle -->
+
+      <div class="theme-switcher main js-switcher">
+        <input type="checkbox" class="input-switcher" id="switch" /><label
+          class="input-label"
+          for="switch"
+          >Toggle</label
+        >
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile window -->
+
+  <div class="menu-container js-menu-container" id="mobile-menu">
+    <button class="menu-toggle js-close-menu">
+      <svg
+        fill="currentColor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+        width="32"
+        height="32"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M4.293 4.293a1 1 0 011.414 0L10
+          8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0
+          01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10
+          4.293 5.707a1 1 0 010-1.414z"
+          clip-rule="evenodd"
+        ></path>
+      </svg>
+    </button>
+
+    <ul class="mobile-menu">
+      <li class="nav-item-burger">
+        <a class="nav-link current link" href="./index.html">Home</a>
+      </li>
+      <li class="nav-item-burger">
+        <a href="./favorite.html" class="nav-link link">Favorites</a>
+      </li>
+
+      <!-- Toggle-switch-burger -->
+      <li class="theme-switcher burger">
+        <input type="checkbox" class="input-switcher" id="mobile-switch" />
+        <label class="input-label" for="mobile-switch"></label>
+      </li>
+    </ul>
+  </div>
+</section>
+
+  </header>
+  <main>
+
+    <section class="hero">
+  <div class="container hero-container">
+    <div class="hero-title-block">
+      <h2 class="hero-title">
+        Learn to Cook
+        <span class="hero-title-span">Tasty<br />Treats'</span>
+        Customizable<br />Masterclass
+      </h2>
+      <p class="hero-descr">
+        TastyTreats - Customize Your Meal with Ingredient<br />Options and
+        Step-by-Step Video Guides.
+      </p>
+      <a href="tel:+380730000000" class="hero-btn">Order now</a>
+    </div>
+    <div class=" swiper-section">
+      <div class="swiper swiper-hero">
+        <div class="swiper-wrapper"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="filter">
+      <div class="container cont-div">
+        <div class="left-side">
+          <div class="all-categories-card">
+  <button
+    class="all-categories-btn all-categories-btn-active js-all-categories-btn"
+  >
+    All categories
+  </button>
+  <div class="categories-btn-card js-categories-btn-card"></div>
+</div>
+
+          <section id="popular-recipes">
+    <h2 class="name-popular">POPULAR RECIPES</h2>
+    <div class="js-popular-recipes popular-list">
+        <div class="div-popular-list">
+        </div>
+    </div>
+</section>
+        </div>
+        <div class="right-side">
+          <div class="con-select">
+  <div class="con-search">
+    <h2 class="text-search">Search</h2>
+    <div class="con-inp">
+      <svg class="svg-search" width="32" height="32">
+        <use href="/js_88_Kovalchuk63/assets/sprite-5a36ecde.svg#icon-search"></use>
+      </svg>
+      <input
+        class="inp-search"
+        type="text"
+        name="searchQuery"
+        autocomplete="off"
+        placeholder="Enter Text"
+      />
+    </div>
+  </div>
+  <div class="item-select time">
+    <h2 class="text-search">Time</h2>
+    <div class="custom-select">
+      <div class="select-box">
+        <div class="select-container">
+          <select class="js-time">
+            <option value="Select">Select</option>
+          </select>
+          <svg class="search-arrow" width="18" height="18">
+            <use href="/js_88_Kovalchuk63/assets/sprite-5a36ecde.svg#icon-left"></use>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="item-select">
+    <h2 class="text-search">Area</h2>
+    <div class="custom-select">
+      <div class="selected-area js....">
+        <span class="elem-prev">Select</span>
+        <svg class="search-arrow" width="18" height="18">
+          <use href="/js_88_Kovalchuk63/assets/sprite-5a36ecde.svg#icon-left"></use>
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div class="item-select">
+    <h2 class="text-search">Ingredients</h2>
+    <div class="custom-select">
+      <div class="selected-ing js....">
+        <span class="elem-prev">Select</span>
+        <svg class="search-arrow" width="18" height="18">
+          <use href="/js_88_Kovalchuk63/assets/sprite-5a36ecde.svg#icon-left"></use>
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="button-div">
+  <svg class="button-svg" width="18" height="18">
+    <use href="/js_88_Kovalchuk63/assets/sprite-5a36ecde.svg#icon-cross"></use>
+  </svg>
+  <button class="reset-button label-text" type="submit">
+    Reset the filter
+  </button>
+</div>
+          <ul class="card-list js-card-list"></ul>
+
+          
+  <div class="modal-backdrop backdrop">
+    <div class="modal-recipe-card">
+      <button type="button" class="modal-button-close">
+        <svg class="modal-button-icon" width="20" height="20">
+          <use href="${sprite}#icon-modal-cross"></use>
+        </svg>
+      </button>
+
+      <div class="card-markup-modal"></div>
+
+      <div class="extra-modal-button">
+        <button type="button" class="modal-add-favorite">
+          Add to favorite
+        </button>
+        <button type="button" class="modal-give-rating">Give a rating</button>
+      </div>
+  </div>
+</div>
+
+
+
+  
+  
+
+
+
+</body>
+
+</html>
